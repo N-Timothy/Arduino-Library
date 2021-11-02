@@ -1,7 +1,7 @@
 // Licensed under the MIT License <http://opensource.org/licenses/MIT>.
 // SPDX-License-Identifier: MIT
 //
-// Copyright (c) 2021 Nathanarl Timothy
+// Copyright (c) 2021 Nathanael Timothy
 // Copyright (c) 2021 Nathanael Timothy <timmynathan10@gmail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
