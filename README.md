@@ -5,9 +5,9 @@ This is a simple library for arduino
 ## Documentation
 
 Library documentation : 
-    * Queue
+  * Queue
 
-    ```bash
+    ```
     .push(value) - insert value at the end 
     .pop() - removes the first element
     .front() - access the first element
@@ -20,13 +20,13 @@ Library documentation :
     
 ## Usage
 How to use the library :
-    * This library can be copied directly to the current working directory.
-    * To use this library #include"{LIBRARY_NAME}"  , replace the {LIBRARY_NAME} to the copied file name
+  * This library can be copied directly to the current working directory.
+  * To use this library #include"{LIBRARY_NAME}"  , replace the {LIBRARY_NAME} to the copied file name
 
 ## Examples
-Here are some example for the Queue libarry :
+Here are some example for the Queue libary :
 
-```bash
+    ```
     Queue<int> queue(5); // Make a Queue with max 5 int
     
     queue.push(5); // Inserting 5 into the first queue
@@ -54,6 +54,6 @@ Here are some example for the Queue libarry :
 
         Serial.println("clearing queue ");
         Serial.println(queue.clear()); // clear the queue
-  }
-```
+    }
+    ```
 
