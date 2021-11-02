@@ -1,10 +1,10 @@
-# Arduino-Library
+## Arduino-Library
     This is a simple library for arduino
     
-# Documentation
+## Documentation
     * Queue 
 
-    ```
+    ``` bash
     .push(value) - insert value at the end 
     .pop() - removes the first element
     .front() - access the first element
@@ -15,13 +15,15 @@
     .clear() - removes all elements in the queue
     ```
     
-# Usage
+## Usage
     * This library can be copied directly to the current working directory.
     * To use this library #include"{LIBRARY_NAME}"  , replace the {LIBRARY_NAME} to the copied file name
 
-# Examples
+## Examples
 
-```
+    Here are some example for the Queue libaray
+
+``` bash
     Queue<int> queue(5); // Make a Queue with max 5 int
     
     queue.push(5); // Inserting 5 into the first queue
