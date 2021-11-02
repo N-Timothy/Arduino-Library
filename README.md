@@ -2,7 +2,8 @@
     This is a simple library for arduino
     
 ## Documentation
-    * Queue 
+    Library documentation : 
+    * Queue
 
     ``` bash
     .push(value) - insert value at the end 
@@ -16,12 +17,12 @@
     ```
     
 ## Usage
+    How to use the library :
     * This library can be copied directly to the current working directory.
     * To use this library #include"{LIBRARY_NAME}"  , replace the {LIBRARY_NAME} to the copied file name
 
 ## Examples
-
-    Here are some example for the Queue libaray
+    Here are some example for the Queue libarry :
 
 ``` bash
     Queue<int> queue(5); // Make a Queue with max 5 int
