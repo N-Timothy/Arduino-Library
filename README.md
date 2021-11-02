@@ -26,7 +26,7 @@ How to use the library :
 ## Examples
 Here are some example for the Queue libary :
 
-    ```
+  ```
     Queue<int> queue(5); // Make a Queue with max 5 int
     
     queue.push(5); // Inserting 5 into the first queue
@@ -55,5 +55,5 @@ Here are some example for the Queue libary :
         Serial.println("clearing queue ");
         Serial.println(queue.clear()); // clear the queue
     }
-    ```
+  ```
 
