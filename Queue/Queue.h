@@ -51,8 +51,8 @@ class Queue {
       delete[] _data;
     }
     inline int size();
-    inline int front();
-    inline int back();
+    inline T front();
+    inline T back();
     void push(const T &item);
     T pop();
     void clear();
@@ -67,7 +67,7 @@ inline int Queue<T>::size()
 }
 
 template<class T>
-inline int Queue<T>::front()
+inline T Queue<T>::front()
 {
   if(_count <= 0) return T(); // Returns empty
   T result = _data[_front];
@@ -75,7 +75,7 @@ inline int Queue<T>::front()
 }
 
 template<class T>
-inline int Queue<T>::back()
+inline T Queue<T>::back()
 {
   T result = _data[_back - 1];
   return result;
