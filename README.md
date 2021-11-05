@@ -5,8 +5,8 @@ This is a simple library for arduino
 ## Documentation
 
 Library documentation : 
-  * Queue
-  * Ratio
+  * Queue [Documentation](https://github.com/NathanaelTimothy/Arduino-Library/blob/main/Queue/README.md).
+  * Ratio [Documentation](https://github.com/NathanaelTimothy/Arduino-Library/blob/main/Ratio/README.md).
 
 ## Usage
 How to use the library :
