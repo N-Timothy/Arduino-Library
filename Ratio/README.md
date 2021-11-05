@@ -6,7 +6,7 @@ This is a ratio library implementation on arduino
 
 Ratio : 
 
-    ```
+```
     typedef Ratio<value_1, value_2> R - create ratio R with value_1 as the numeator and value_2 as denumerator 
     typedef ratio_add<Ratio_1, Ratio_2> result - adding Ratio_1 and Ratio_2, 
     typedef ratio_subtract<Ratio_1, Ratio_2> result - subtracting Ratio_1 dan Ratio_2
@@ -23,7 +23,7 @@ Ratio :
     ratio_less_equal<Ratio_1, Ratio_2>() - return true if Ratio_1 decimal value is less or equal to Ratio_2 decimal value
     ratio_greater<Ratio_1, Ratio_2>() - return true if Ratio_1 decimal value is greater to Ratio_2 decimal value
     ratio_greater_equal<Ratio_1, Ratio_2>() - return true if Ratio_1 decimal value is greater or equal to Ratio_2 decimal value
-    ```
+```
     
 ## Examples
 Here are some example for the Ratio libary :

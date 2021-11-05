@@ -6,6 +6,7 @@ This is a simple library for arduino
 
 Library documentation : 
   * Queue
+  * Ratio
 
 ## Usage
 How to use the library :

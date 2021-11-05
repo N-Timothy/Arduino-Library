@@ -6,7 +6,7 @@ This is a queue library implementation on arduino
 
 Queue : 
 
-    ```
+```
     .push(value) - insert value at the end 
     .pop() - removes the first element
     .front() - access the first element
@@ -15,7 +15,7 @@ Queue :
     .full() - checks whether the queue is full
     .size() - return the number of elements
     .clear() - removes all elements in the queue
-    ```
+```
     
 ## Examples
 Here are some example for the Queue libary :
